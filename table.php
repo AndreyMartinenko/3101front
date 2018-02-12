@@ -1,4 +1,4 @@
-<<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +9,7 @@
     <title>Firs Table</title>
 </head>
 <body>
-<center>
-<table border="2" >
+<table border="2" align="center" width=550>
     <!--1-->
     <tr>
         <td>11</td>
@@ -19,7 +18,7 @@
         <td>14</td>
         <td>15</td>
         <td>16</td>
-        <td colspan="2">17335555</td>
+        <td colspan="2">15</td>
         <td>18</td>
         <td>19</td>
     </tr>
@@ -47,8 +46,8 @@
     <!--4-->
     <tr>
         <td>41</td>
-        <td></td>
-        <td colspan="3" rowspan="2"></td>
+        <td>32</td>
+        <td colspan="3" rowspan="2">12</td>
         <td>123</td>
         <td colspan="2">134</td>
         <td>134</td>
@@ -72,7 +71,5 @@
         <td colspan="2">123</td>
     </tr>
 </table>
-</center>
-
 </body>
 </html>
