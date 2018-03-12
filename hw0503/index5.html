@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+    function mostNumber() {
+
+        var a = Math.floor(Math.random() * 100) + 1;
+        var b = Math.floor(Math.random() * 100) + 1;
+        alert ('first number is '+ a);
+        alert('second number is '+ b);
+
+        if (a>b) {
+            document.write('biggest number is ' +a);
+        } else {
+            document.write('biggest number is ' +b);
+        }
+    }
+    mostNumber();
+
+</script>
+</body>
+</html>

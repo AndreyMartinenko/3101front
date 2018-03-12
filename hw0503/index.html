@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var a = 'how old is you?';
+    var n = 'what is your name?'
+    var age = prompt(a);
+
+    if (age <= 7 || age >= 17) {
+        document.write('not2000')
+    }
+
+
+    if (age > 7 && age < 17) {
+        var name = prompt(n);
+        if (name == '') {
+            document.write('baybay');
+        } else {
+            document.write('heloo ' + name + '!!!');
+        }
+
+    }
+</script>
+</body>
+</html>

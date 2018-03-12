@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var number, pow;
+    var x = prompt('input x', number);
+    var n = prompt('input pow', pow)
+
+    function myPow(x, n) {
+        if (n!=1) {
+            return x * myPow(x, n-1);
+        } else {
+            return x;
+        }
+    }
+    alert('result is ' + myPow(x, n));
+
+</script>
+</body>
+</html>
